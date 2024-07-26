@@ -7,11 +7,11 @@ const Navigation = () => {
     return (
         <>
         <div id="navlinks">
-        <Link to='/'><h3>Home</h3></Link>
-        <Link to='/about'><h3>About Me</h3></Link>
-        <Link to='/contact'><h3>Contact</h3></Link>
-        <Link to='/portfolio'><h3>Projects</h3></Link>
-        <Link to='/resume'><h3>Resume</h3></Link>
+        <Link to='/'><h3 className="navlink">Home</h3></Link>
+        <Link to='/about'><h3 className="navlink">About Me</h3></Link>
+        <Link to='/contact'><h3 className="navlink">Contact</h3></Link>
+        <Link to='/portfolio'><h3 className="navlink">Projects</h3></Link>
+        <Link to='/resume'><h3 className="navlink">Resume</h3></Link>
         </div>
         
         </>

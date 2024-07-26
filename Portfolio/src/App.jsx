@@ -7,8 +7,8 @@ import Header from './components/Header'
 import About from './components/About'
 import Home from './components/Home'
 import Contact from './components/Contact'
-import Project from './components/Project'
 import Resume from './components/Resume'
+import Projects from './components/Projects'
 
 
 function App() {
@@ -27,15 +27,12 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
-        <Route path='/portfolio' element={<Project/>}/>
+        <Route path='/portfolio' element={<Projects/>}/>
         <Route path='/resume' element={<Resume/>}/>
 
         
       </Routes>
     </div>
-      <div>
-
-      </div>
       <div>
         <Footer />
       </div>
