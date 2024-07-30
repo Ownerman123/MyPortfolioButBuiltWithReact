@@ -11,7 +11,8 @@ import Projects from './components/Projects'
 
 
 function App() {
-  const [page, setpage] = useState('About')
+  const [page, setpage] = useState('about')
+  const changepage = (page)=> setpage(page);
   
   
  
@@ -21,9 +22,9 @@ function App() {
 
       <BrowserRouter>
     <div>
-      <Header />
+      <Header currentpage={page} setpage={changepage}/>
       <Routes>
-        <Route path='/' element={<About/>}/>
+        <Route path='/' element={<About />}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/portfolio' element={<Projects/>}/>

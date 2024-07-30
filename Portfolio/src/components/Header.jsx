@@ -1,6 +1,6 @@
 import Navigation from './Navigation'
 
-const Header = () => {
+const Header = ({currentpage, setpage}) => {
 
 
     // html to be loaded to dom
@@ -8,7 +8,7 @@ const Header = () => {
         <>
         <header>    
         <h1>Charles Shumway</h1>
-        <Navigation />
+        <Navigation currentpage={currentpage} setpage={setpage}/>
         </header>
         </>
     );
