@@ -1,37 +1,37 @@
 
 
 // send the message and get a callback with an error or details of the message that was sent
-
+import  ContactUs  from "./contactform";
 
 
 const Contact = () => {
 
     
-    const handleSubmit = ()=> {
+    // const handleSubmit = ()=> {
         
-        const uname = document.getElementById('name');
-        const email = document.getElementById('email');
-        const message = document.getElementById('message');
+    //     const uname = document.getElementById('name');
+    //     const email = document.getElementById('email');
+    //     const message = document.getElementById('message');
         
 
-        const objToSend = {
-            name: uname.value,
-            email: email.value,
-            message: message.value
-        };
+    //     const objToSend = {
+    //         name: uname.value,
+    //         email: email.value,
+    //         message: message.value
+    //     };
 
-            console.log(objToSend);
+    //         console.log(objToSend);
            
         
-        uname.value = '';
-        email.value = '';
-        message.value = '';
+    //     uname.value = '';
+    //     email.value = '';
+    //     message.value = '';
 
-    }
+    // }
 
     return(
         <>
-        <p>Send me a message!</p>
+        {/* <p>Send me a message!</p>
         <form action="">
         <div className="contactinputs">
         <label htmlFor="name">Name</label>
@@ -46,7 +46,8 @@ const Contact = () => {
         <input type="text" name="message" id="message" className="boxedtext" />
         </div>
         </form>
-        <button onClick={handleSubmit}>Submit</button>
+        <button onClick={handleSubmit}>Submit</button> */}
+        <ContactUs></ContactUs>
         </>
     )
 }
