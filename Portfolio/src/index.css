@@ -46,13 +46,10 @@ h3{
   font-size: 30px;
 }
 .selectedlink {
-  color:#b6b5b5
+  color:#b6b5b5;
+  background-color: #1b24c0;
 }
 
-div {
- 
-
-}
 .contactinputs {
 
   margin-left: 2rem;
