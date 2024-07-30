@@ -1,3 +1,13 @@
+:root {
+    --yellow: #f8c11b;
+    --blue: #5799d3;
+    --purple:#c583bd;
+    --green: #248a92;
+    --red: #e3553b;
+    --BGgrey: #1f1f1f;
+
+ }
+
 h1 {
     padding: 1rem;
     display: inline;
