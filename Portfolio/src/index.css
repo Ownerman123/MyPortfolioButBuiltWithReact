@@ -97,7 +97,7 @@ h3{
   transition: box-shadow .1s ease;
 }
 .projectimage:hover {
-  /* transform: scale(1.01); */
+  transform: scale(1.01);
 }
 #firstcard {
   flex: 4 0 100%;
