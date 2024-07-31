@@ -14,9 +14,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 #root {
   width: 100%;
 }
+
 
 a {
   font-weight: 500;
@@ -41,13 +43,18 @@ h1 {
 }
 h3{
   font-size: 3rem;
+  border-bottom: 2px solid #0e0d0d;
+  margin-left: 1rem;
 }
 .navlink {
   font-size: 30px;
+  border-width: 5px;
+  border-radius: 2px;
+  margin-right: 1rem;
+  padding: 1rem;
 }
 .selectedlink {
-  color:#b6b5b5;
-  background-color: #1b24c0;
+  color:#b2cee7;
 }
 
 .contactinputs {
@@ -90,7 +97,7 @@ h3{
   transition: box-shadow .1s ease;
 }
 .projectimage:hover {
-  transform: scale(1.01);
+  /* transform: scale(1.01); */
 }
 #firstcard {
   flex: 4 0 100%;
@@ -137,6 +144,17 @@ h3{
   margin: 5rem !important;
   padding: 1rem !important;
 }
+.overlay {
+  position: relative;
+}
+
+.gitlink {
+  
+}
+
+
+
+
 
 
 
@@ -148,12 +166,16 @@ h3{
     color: #213547;
     background-color: #ffffff;
   }
+  header {
+    border-bottom: 2px solid #0e0d0d;
+    
+  }
   a:hover {
-    color: #747bff;
+    color: #343ef7;
   }
   a {
     font-weight: 500;
-    color: #1b24c0;
+    color: #0d1052;
     text-decoration: inherit;
   }
   
@@ -198,6 +220,32 @@ h3{
   .projectimage:hover {
     box-shadow: 10px 8px 20px 1px rgb(69, 191, 221);
   }
+  .navlink {
+    font-size: 30px;
+    background-color: #f9f9f9;
+    border:1px solid #2e2e30;
+    border-radius: 4px;
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+  .navlink:hover {
+    box-shadow: 5px 5px 5px black;
+  }
+  .selectedlink {
+    color: #8400ff;
+  }
+  .fancy-3 {
+    background:
+      radial-gradient(circle, black 50%, transparent) center/var(--d, 0) var(--d, 0) no-repeat,
+      linear-gradient(black 0 0) bottom -12px left 50% /15px 15px no-repeat;
+    transition: 0.3s, background-position 0.3s 0.3s
+  }
+  .fancy-3:hover {
+    transition: 0.3s, background-size 0.4s 0.3s, color 0.3s 0.3s;
+    background-position: center;
+    --d: 180%;
+    color: #fff
+  }
 
 }
 @media (prefers-color-scheme: dark) {
@@ -205,8 +253,14 @@ h3{
     color: #b2cee7;
     background-color: #0e0d0d;
   }
+  header {
+    border-bottom: 2px solid #2e2e30;
+    background-color: #1f1e1e;
+    
+  }
   a:hover {
-    color: #2e2e30;
+    color: #3a3a5e;
+    
   }
   a {
     font-weight: 500;
@@ -247,4 +301,34 @@ h3{
   .projectimage:hover {
     box-shadow: 15px 15px 20px -5px rgb(69, 191, 221);
   }
+  .navlink {
+    font-size: 30px;
+    background-color: #2e2d2d;
+    border: #3c3c3f;
+    border-width: 5px;
+    border-radius: 2px;
+    margin-right: 1rem;
+    padding: 1rem;
+    
+  }
+  .navlink:hover {
+    transition: 0.9s box-shadow  ease ;
+    box-shadow: 5px 5px 10px #343ef7;
+  }
+  .fancy-3 {
+    background:
+   
+      radial-gradient(circle, white 50%, transparent) center/var(--d, 0) var(--d, 0) no-repeat,
+      linear-gradient(white 0 0) bottom -12px left 50% /15px 15px no-repeat;
+    transition: 0.3s, background-position 0.3s 0.2s;
+    
+  }
+  .fancy-3:hover {
+    transition: 0.3s, background-size 0.4s 0.3s, color 0.3s 0.3s, box-shadow 1.5s ;
+    background-position: center;
+    --d: 180%;
+    color: black
+    
+  }
+
 }

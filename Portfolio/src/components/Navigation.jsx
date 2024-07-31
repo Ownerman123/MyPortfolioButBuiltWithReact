@@ -9,10 +9,10 @@ const Navigation = ({currentpage, setpage}) => {
            return( <>
             <div id="navlinks">
             
-            <Link to='/about'><h3 className="navlink selectedlink" onClick={()=> setpage('about')}>About Me</h3></Link>
-            <Link to='/contact'><h3 className="navlink" onClick={()=> setpage('contact')}>Contact</h3></Link>
-            <Link to='/portfolio'><h3 className="navlink" onClick={()=> setpage('portfolio')}>Projects</h3></Link>
-            <Link to='/resume'><h3 className="navlink" onClick={()=> setpage('resume')}>Resume</h3></Link>
+            <Link to='/about'><h3 className="navlink selectedlink fancy-3" onClick={()=> setpage('about')}>About Me</h3></Link>
+            <Link to='/contact'><h3 className="navlink fancy-3" onClick={()=> setpage('contact')}>Contact</h3></Link>
+            <Link to='/portfolio'><h3 className="navlink fancy-3" onClick={()=> setpage('portfolio')}>Projects</h3></Link>
+            <Link to='/resume'><h3 className="navlink fancy-3" onClick={()=> setpage('resume')}>Resume</h3></Link>
             </div>
             
             </>
@@ -22,10 +22,10 @@ const Navigation = ({currentpage, setpage}) => {
             return( <>
              <div id="navlinks">
              
-             <Link to='/about'><h3 className="navlink" onClick={()=> setpage('about')}>About Me</h3></Link>
-             <Link to='/contact'><h3 className="navlink selectedlink" onClick={()=> setpage('contact')}>Contact</h3></Link>
-             <Link to='/portfolio'><h3 className="navlink" onClick={()=> setpage('portfolio')}>Projects</h3></Link>
-             <Link to='/resume'><h3 className="navlink" onClick={()=> setpage('resume')}>Resume</h3></Link>
+             <Link to='/about'><h3 className="navlink fancy-3" onClick={()=> setpage('about')}>About Me</h3></Link>
+             <Link to='/contact'><h3 className="navlink selectedlink fancy-3" onClick={()=> setpage('contact')}>Contact</h3></Link>
+             <Link to='/portfolio'><h3 className="navlink fancy-3" onClick={()=> setpage('portfolio')}>Projects</h3></Link>
+             <Link to='/resume'><h3 className="navlink fancy-3" onClick={()=> setpage('resume')}>Resume</h3></Link>
              </div>
              
              </>
@@ -34,10 +34,10 @@ const Navigation = ({currentpage, setpage}) => {
                 return( <>
                  <div id="navlinks">
                  
-                 <Link to='/about'><h3 className="navlink" onClick={()=> setpage('about')}>About Me</h3></Link>
-                 <Link to='/contact'><h3 className="navlink" onClick={()=> setpage('contact')}>Contact</h3></Link>
-                 <Link to='/portfolio'><h3 className="navlink selectedlink" onClick={()=> setpage('portfolio')}>Projects</h3></Link>
-                 <Link to='/resume'><h3 className="navlink" onClick={()=> setpage('resume')}>Resume</h3></Link>
+                 <Link to='/about'><h3 className="navlink fancy-3" onClick={()=> setpage('about')}>About Me</h3></Link>
+                 <Link to='/contact'><h3 className="navlink fancy-3" onClick={()=> setpage('contact')}>Contact</h3></Link>
+                 <Link to='/portfolio'><h3 className="navlink selectedlink fancy-3" onClick={()=> setpage('portfolio')}>Projects</h3></Link>
+                 <Link to='/resume'><h3 className="navlink fancy-3" onClick={()=> setpage('resume')}>Resume</h3></Link>
                  </div>
                  
                  </>
@@ -46,10 +46,10 @@ const Navigation = ({currentpage, setpage}) => {
                     return( <>
                      <div id="navlinks">
                      
-                     <Link to='/about'><h3 className="navlink" onClick={()=> setpage('about')}>About Me</h3></Link>
-                     <Link to='/contact'><h3 className="navlink" onClick={()=> setpage('contact')}>Contact</h3></Link>
-                     <Link to='/portfolio'><h3 className="navlink" onClick={()=> setpage('portfolio')}>Projects</h3></Link>
-                     <Link to='/resume'><h3 className="navlink selectedlink" onClick={()=> setpage('resume')}>Resume</h3></Link>
+                     <Link to='/about'><h3 className="navlink fancy-3" onClick={()=> setpage('about')}>About Me</h3></Link>
+                     <Link to='/contact'><h3 className="navlink fancy-3" onClick={()=> setpage('contact')}>Contact</h3></Link>
+                     <Link to='/portfolio'><h3 className="navlink fancy-3" onClick={()=> setpage('portfolio')}>Projects</h3></Link>
+                     <Link to='/resume'><h3 className="navlink selectedlink fancy-3" onClick={()=> setpage('resume')}>Resume</h3></Link>
                      </div>
                      
                      </>
@@ -60,10 +60,10 @@ const Navigation = ({currentpage, setpage}) => {
                 <>
                 <div id="navlinks">
                 
-                <Link to='/about'><h3 className="navlink" onClick={()=> setpage('about')}>About Me</h3></Link>
-                <Link to='/contact'><h3 className="navlink" onClick={()=> setpage('contact')}>Contact</h3></Link>
-                <Link to='/portfolio'><h3 className="navlink" onClick={()=> setpage('portfolio')}>Projects</h3></Link>
-                <Link to='/resume'><h3 className="navlink" onClick={()=> setpage('resume')}>Resume</h3></Link>
+                <Link to='/about'><h3 className="navlink fancy-3" onClick={()=> setpage('about')}>About Me</h3></Link>
+                <Link to='/contact'><h3 className="navlink fancy-3" onClick={()=> setpage('contact')}>Contact</h3></Link>
+                <Link to='/portfolio'><h3 className="navlink fancy-3" onClick={()=> setpage('portfolio')}>Projects</h3></Link>
+                <Link to='/resume'><h3 className="navlink fancy-3" onClick={()=> setpage('resume')}>Resume</h3></Link>
                 </div>
                 
                 </>
