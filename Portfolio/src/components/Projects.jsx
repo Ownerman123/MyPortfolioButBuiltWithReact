@@ -6,9 +6,10 @@ const Projects = () => {
         <h3>Web Development </h3>
         <div className="prodcontainer ">
         <div id="webdev">
-        <Project link="https://github.com/Ownerman123/Trying-to-sell" gitlink="https://github.com/Ownerman123/Trying-to-sell" imgurl="./trytosell.png" imgalt='Try To sell. online "market" ' first={true} />
+        {/* <Project link="https://github.com/Ownerman123/Trying-to-sell" gitlink="https://github.com/Ownerman123/Trying-to-sell" imgurl="./trytosell.png" imgalt='Try To sell. online "market" '  /> */}
+        <Project link="https://superdinnerplanner.netlify.app" gitlink="https://github.com/Ownerman123/dinnerplanner" imgurl="./Dinnerplanner.png" imgalt="Dinner planner, plan dinner and the shopping list at the same time" first={true} />
         <Project link="https://ownerman123.github.io/Weather-Forecast/" gitlink="https://github.com/Ownerman123/Weather-Forecast" imgurl="./WeatherWizard.png" imgalt="Weather Wizard. a forcasting app" />
-        <Project link="https://github.com/Ownerman123/MVC-Tech-Blog" gitlink="https://github.com/Ownerman123/MVC-Tech-Blog" imgurl="./BlogNAhome.png" imgalt="BlogNA the meatiest coding blog on the web" />
+        {/* <Project link="https://github.com/Ownerman123/MVC-Tech-Blog" gitlink="https://github.com/Ownerman123/MVC-Tech-Blog" imgurl="./BlogNAhome.png" imgalt="BlogNA the meatiest coding blog on the web" /> */}
         <Project link="https://ricardoshade.github.io/FrugalChef/" gitlink="https://github.com/ricardoshade/FrugalChef" imgurl="./recipeRoulette.png" imgalt="Recipe Roulette, a recipe randomizer" />
         <Project link="https://pwa-texteditor-qjij.onrender.com/" gitlink="https://github.com/Ownerman123/PWA-textEditor" imgurl="./jate.PNG" imgalt="jate, a text editor " />
         <Project link="https://ownerman123.github.io/Task-Board/" gitlink="https://github.com/Ownerman123/Task-Board" imgurl="./taskBoard.PNG" imgalt="Task Board" />
