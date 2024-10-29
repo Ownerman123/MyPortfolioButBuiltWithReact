@@ -21,8 +21,8 @@ const Projects = () => {
         <h3>Game Design</h3>
         <div className="prodcontainer">
         <div id="gamedes">
-            <Project link="https://www.printables.com/model/797520-iceolation" imgurl="/iceolation.jpg" imgalt="justme" />
-            <Project link="https://ownerman123.itch.io/steak-cuts" imgurl="/SteakCuts.png" imgalt="justme" />
+            <Project link="https://www.printables.com/model/1055513-iceloation-board-game" imgurl="/iceolation.jpg" imgalt="Iceolation" />
+            <Project link="https://ownerman123.itch.io/steak-cuts" imgurl="/SteakCuts.png" imgalt="Steak Cuts Game" />
         </div>
         </div>
 
